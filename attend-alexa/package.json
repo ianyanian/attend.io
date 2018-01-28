@@ -1,0 +1,22 @@
+{
+  "name": "attend-alexa",
+  "version": "0.0.0",
+  "description": "",
+  "author": "ianyanian <ianrenaldo@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "lib": "^3.0.1"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "ianyanian/attend-alexa",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    },
+    "source": "alexa"
+  }
+}
